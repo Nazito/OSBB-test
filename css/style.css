@@ -1809,6 +1809,14 @@ li {
     -moz-border-radius: 37px;
     border-radius: 37px;
     margin-top: 8px;
+    padding-right: 10px;
+  }
+
+  .content__first-screen_form_container
+    form
+    .container-text-fields
+    input:nth-of-type(2) {
+    margin-right: 10px;
   }
   .content__first-screen_form_container {
     width: 95%;
@@ -2484,7 +2492,7 @@ li {
     margin: 15px 0;
   }
   .content__tarifs_container_left form .radio-button::after {
-    top: 3.3px;
+    top: 4.3px;
   }
 }
 
