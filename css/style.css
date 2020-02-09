@@ -2495,6 +2495,20 @@ li {
   background-position: bottom left;
 }
 
+.content__news::before {
+  content: "";
+  width: 105px;
+  height: 1px;
+  background-color: #6e788d;
+  display: block;
+  margin: auto;
+}
+
+.content__news h4 {
+  margin: 0;
+  padding: 30px 0;
+}
+
 .content__news__container-slider {
   max-width: 100%;
   height: 80%;
